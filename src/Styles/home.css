@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+*{box-sizing: border-box;
+  font-family: Poppins;
+  
+}
+
+/* back-img menu */
+.search{
+  margin-left: 261px;
+}
+
+.back-img{
+  background-image: linear-gradient(to bottom, rgba(157, 14, 14, 0), #4f0707), url("../Assets/background.png");
+  height: 490px;
+}
+/* create menu  and login menu */
+.login ,.create{
+
+  text-decoration: none;
+  color: white;
+  opacity: 0.8;
+}
+.create{
+
+  border-radius: 5px;
+  border: 1px solid white;
+}
+.login:hover,.create:hover{
+  color: white;
+}
+/* logo e! menu */
+.esymbol{
+display: inline;
+
+  color: tomato;
+  background-color: white;
+
+  border-radius: 51%;
+  font-size: 57px;
+  text-align: center;
+}
+
+/* content menu */
+.content{
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+}
+/* select and search menu */
+.select-item ,.search-menu{
+  font-size: 15px;
+    color: #636f88;
+}
+/* .search-item{
+  position: relative;
+} */
+/* quick menu */
+.item{
+  width: 350px !important;
+  height: 160px;
+  margin: 10px;
+  box-shadow: 0 3px 6px 0 rgba(202, 31, 31, 0.16);
+ /* margin: 10px; */
+}
+.quick-item{
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+}
+.dis-item{
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  
+  letter-spacing: normal;
+  text-align: left;
+  color: #8c96ab;
+}
+.header{
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+}
+.cont{
+  text-align: left;
+    color: #8c96ab;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+}
+@media only screen and (max-width:600px){
+ 
+ .dsa {
+    margin-left: -126px !important;
+}
+.search{
+  margin-left: 0px;
+}
+.select-item, .search-menu {
+  font-size: 15px;
+  color: #636f88;
+  margin-bottom: 12px;
+  margin-left: 13px;
+}
+}
